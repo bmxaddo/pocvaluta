@@ -1,4 +1,5 @@
 import Link from "next/link";
+import {StockSliderWrapper} from "../components/wrapper";
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
                     <div>
                         <Link href={'/'}>GO TO MAIN PAGE</Link>
                     </div>
+                    <StockSliderWrapper/>
                 </h1>
             </div>
         </div>
